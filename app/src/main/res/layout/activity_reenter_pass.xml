@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appback"
+    android:orientation="vertical"
+    tools:context="com.aditi.hkp.Activity.reenterPassActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="नया पासवर्ड  "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundedtext"
+        android:ems="10"
+        android:textSize="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/otpicon"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="पासवर्ड दोबारा डाले   "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/reenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundedtext"
+        android:ems="10"
+        android:textSize="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/otpicon"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="200dp"
+        android:width="110dp"
+        android:background="@drawable/buttonshape"
+        android:text="आगे बड़े"
+        android:textAlignment="center"
+        android:onClick="next"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

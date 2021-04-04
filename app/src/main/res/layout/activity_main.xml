@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appback"
+    tools:context="com.aditi.hkp.Activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="360dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/loogoo" />
+
+    <TextView
+        android:id="@+id/tvnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="10dp"
+        android:onClick="nextpage"
+        android:text="आगे बढे "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#fff"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

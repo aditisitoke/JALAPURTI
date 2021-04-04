@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appback"
+    android:orientation="vertical"
+    tools:context="com.aditi.hkp.Activity.questionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="नाम"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/tv2"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:text="पिता का नाम"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/tv3"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="120dp"
+                android:text="स्थाई पता "
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/tv4"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="170dp"
+                android:text="हल्का न."
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/tv5"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="220dp"
+                android:text="खसरा न."
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/tv6"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="320dp"
+                android:text="मिटटी का प्रकार"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/tv7"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="270dp"
+                android:text="राज्य "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv8"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv6"
+                android:layout_alignStart="@+id/tv6"
+                android:layout_below="@+id/tv6"
+                android:layout_marginTop="20dp"
+                android:text="फसल"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/tv9"
+                style="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox10"
+                android:layout_marginTop="18dp"
+                android:layout_toLeftOf="@+id/checkBox10"
+                android:layout_toStartOf="@+id/checkBox10"
+                android:text="अत्यधिक आवश्यकता वाले माह "
+                android:textSize="20dp" />
+
+
+            <EditText
+                android:id="@+id/sp1"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@id/tv1"
+                android:layout_toRightOf="@id/tv1"
+                android:background="@drawable/roundedtext"
+                android:clickable="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:enabled="true" />
+
+
+            <EditText
+                android:id="@+id/sp2"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="130dp"
+                android:layout_toEndOf="@id/tv2"
+                android:layout_toRightOf="@id/tv2"
+                android:background="@drawable/roundedtext"
+                android:clickable="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:enabled="true" />
+
+
+            <EditText
+                android:id="@+id/sp3"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="180dp"
+                android:layout_toEndOf="@id/tv3"
+                android:layout_toRightOf="@id/tv3"
+                android:background="@drawable/roundedtext" />
+
+
+            <EditText
+                android:id="@+id/tv"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@id/tv1"
+                android:layout_toRightOf="@id/tv1"
+                android:background="@drawable/roundedtext"
+                android:clickable="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:enabled="true" />
+
+            <EditText
+                android:id="@+id/ed"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="230dp"
+                android:layout_toEndOf="@id/tv5"
+                android:layout_toRightOf="@id/tv5"
+                android:background="@drawable/roundedtext"
+                android:clickable="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:enabled="true" />
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="280dp"
+                android:layout_toEndOf="@id/tv7"
+                android:layout_toRightOf="@id/tv7"
+                android:background="@drawable/roundedtext"
+                android:clickable="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:enabled="true" />
+
+            <Spinner
+                android:id="@+id/sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv6"
+                android:layout_alignBottom="@+id/tv6"
+                android:layout_toEndOf="@+id/tv6"
+                android:layout_toRightOf="@+id/tv6"
+                android:entries="@array/soil" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv6"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/tv9"
+                android:layout_toRightOf="@+id/tv9"
+                android:textColor="#fff"
+                android:text="गेहूं    " />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox"
+                android:layout_alignBottom="@+id/checkBox"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/checkBox"
+                android:layout_toRightOf="@+id/checkBox"
+                android:textColor="#fff"
+                android:text="चना " />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/checkBox6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/checkBox2"
+                android:layout_toRightOf="@+id/checkBox2"
+                android:textColor="#fff"
+                android:text="मक्का " />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/checkBox"
+                android:layout_alignRight="@+id/checkBox"
+                android:layout_below="@+id/checkBox"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tv8"
+                android:textColor="#fff"
+                android:text="सरसों " />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox2"
+                android:layout_alignStart="@+id/checkBox2"
+                android:textColor="#fff"
+                android:layout_below="@+id/checkBox2"
+                android:layout_marginTop="10dp"
+                android:text="चावल " />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/checkBox2"
+                android:layout_toRightOf="@+id/checkBox2"
+                android:textColor="#fff"
+                android:text="बाजरा " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv8"
+                android:layout_alignStart="@+id/tv8"
+                android:layout_below="@+id/checkBox4"
+                android:layout_marginTop="20dp"
+                android:text="पर्याप्त जल उपलब्ध है ?"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/checkBox5"
+            android:layout_marginLeft="14dp"
+            android:layout_toEndOf="@id/textView4"
+            android:layout_toRightOf="@id/textView4">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox5"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/textView4"
+                android:layout_toRightOf="@+id/textView4"
+                android:textColor="#fff"
+                android:text="हाँ " />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox6"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/radioButton"
+                android:layout_toRightOf="@+id/checkBox5"
+                android:textColor="#fff"
+                android:text="नहीं " />
+
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/tv9"
+                android:layout_toRightOf="@+id/textView14"
+                android:textColor="#fff"
+                android:text="नदी " />
+
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/checkBox7"
+                android:layout_toRightOf="@+id/checkBox7"
+                android:textColor="#fff"
+                android:text="बोरवेल " />
+
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/checkBox8"
+                android:layout_toRightOf="@+id/checkBox8"
+                android:textColor="#fff"
+                android:text="तालाब " />
+
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox7"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView14"
+                android:layout_toRightOf="@+id/textView14"
+                android:textColor="#fff"
+                android:text="नहर " />
+
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox8"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/checkBox10"
+                android:layout_toRightOf="@+id/checkBox10"
+                android:textColor="#fff"
+                android:text="बओड़ी " />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox7"
+                android:layout_alignBottom="@+id/checkBox7"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4"
+                android:text="जल स्त्रोत "
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox10"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/textView14"
+                android:layout_toRightOf="@+id/checkBox10"
+                android:textColor="#fff"
+                android:text="जनवरी-मार्च  " />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox12"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/textView14"
+                android:layout_toRightOf="@+id/checkBox10"
+                android:textColor="#fff"
+                android:text="अप्रैल-जून  " />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox13"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/textView14"
+                android:layout_toRightOf="@+id/checkBox10"
+                android:textColor="#fff"
+                android:text="जुलाई-सितम्बर  " />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox14"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/textView14"
+                android:layout_toRightOf="@+id/checkBox10"
+                android:textColor="#fff"
+                android:text="अक्टूबर-दिसम्बर  " />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/checkBox15"
+            android:layout_marginTop="50dp"
+            android:width="110dp"
+            android:background="@drawable/buttonshape"
+            android:outlineProvider="background"
+            android:text="पंजियत करे  "
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

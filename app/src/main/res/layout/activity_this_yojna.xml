@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appback"
+    android:orientation="vertical"
+    tools:context="com.aditi.hkp.Activity.ThisYojnaActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/banner"
+        />
+
+    <TextView
+        android:id="@+id/tvwhat"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="योजना क्या है"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/buttonshape"
+        android:onClick="tvwhat"
+        android:textColor="#000"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/tvuddesh"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="योजना का उद्देश्य  क्या है "
+        android:background="@drawable/buttonshape"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:onClick="tvuddesh"
+        android:textColor="#000"
+        android:textSize="23dp" />
+    <TextView
+        android:id="@+id/tvlaksh"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="योजना का लक्ष्य क्या है"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:onClick="tvlaksh"
+        android:textColor="#000"
+        android:background="@drawable/buttonshape"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/tvkarya"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="योजना के कार्य"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/buttonshape"
+        android:onClick="tvkarya"
+        android:textColor="#000"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/tvkharch"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="योजना का खर्च"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:onClick="tvkharch"
+        android:background="@drawable/buttonshape"
+        android:textColor="#000"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/tvfayada"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="किसानो को योजना का फायदा"
+        android:background="@drawable/buttonshape"
+        android:onClick="tvfayada"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/tvbhumika"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="विधायक की भूमिका"
+        android:background="@drawable/buttonshape"
+        android:onClick="tvbhumika"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="23dp" />
+
+</LinearLayout>

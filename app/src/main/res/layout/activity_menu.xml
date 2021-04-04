@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appback"
+    tools:context="com.aditi.hkp.Activity.menuActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/bann"/>
+
+
+    <Button
+        android:id="@+id/btnfarmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="farmerpage"
+        android:outlineProvider="background"
+        android:background="@drawable/buttonshape"
+        android:text="किसान प्रवेश"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/btnthisyojana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:width="180dp"
+        android:onClick="ThisYojana"
+        android:background="@drawable/buttonshape"
+        android:outlineProvider="background"
+        android:textColor="#000"
+        android:text="जाने योजना क्या हैं"
+        android:textSize="23dp"/>
+
+    <Button
+        android:id="@+id/btnyojanaye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:width="180dp"
+        android:onClick="yojanaye"
+        android:text="कृषि संवंधित अन्य योजना"
+        android:background="@drawable/buttonshape"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="23dp"/>
+
+    <Button
+        android:id="@+id/btngram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:width="180dp"
+        android:onClick="GramSevak"
+        android:text="ग्राम सेवक प्रवेश "
+        android:background="@drawable/buttonshape"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="23dp"/>
+
+</LinearLayout>

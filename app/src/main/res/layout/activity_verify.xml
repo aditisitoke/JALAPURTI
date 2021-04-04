@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appback"
+    tools:context="com.aditi.hkp.Activity.verifyActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="आधार क्रमांक "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/aadhar"
+        android:maxLength="12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundedtext"
+        android:drawableLeft="@drawable/adharicon"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="औ.टी.पी   "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundedtext"
+        android:ems="10"
+        android:textSize="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/otpicon"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:outlineProvider="background"
+        android:text="वेरीफाई "
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="120dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
